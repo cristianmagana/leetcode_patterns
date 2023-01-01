@@ -1,3 +1,10 @@
+/**
+ * 
+ * @param fullString - string of characters to parse
+ * @param subString - string of characters looking to find in fullString.
+ * @returns - minimum window substring containing subString
+ */
+
 const minimumWindow = (fullString: string, subString: string): string => {
     let result = "";
 
