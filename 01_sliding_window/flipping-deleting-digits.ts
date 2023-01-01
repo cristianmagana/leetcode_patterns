@@ -1,3 +1,12 @@
+/**
+ * 
+ * Given an array of zeros and ones, find the longest subarray of contiguous 
+ * ones such that at most k many zeros can be "flipped" to a one.
+ * 
+ * @param nums - an array of ones and zeros 
+ * @returns the length of the longest substring. 
+ */
+
 const slidingWindow = (nums: number[]): number => {
 	
 	let result = 0;
